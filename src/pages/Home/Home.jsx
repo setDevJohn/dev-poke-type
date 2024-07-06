@@ -1,5 +1,5 @@
 import { types } from '../../objects/types';
-import { TypeCard } from '../../components/TypeCard/styles';
+import { TypeCard } from '../../components/TypeCard/TypeCard';
 import {
   TypeList,
   Container,
