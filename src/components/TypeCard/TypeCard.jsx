@@ -4,11 +4,17 @@ import {
   CardContainer,
 } from './styles';
 
-function TypeCard({ type, image, color }) {
+function TypeCard({ type, handleClick }) {
+  const {
+    name,
+    color,
+    image,
+  } = type;
+
   return (
-    <CardContainer>
+    <CardContainer onClick={ handleClick }>
       <Title $color={ color }>
-        {type}
+        {name}
       </Title>
 
       <Icon src={ image } alt={ `Ícone-${type}` } />
