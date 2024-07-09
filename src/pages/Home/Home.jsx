@@ -9,9 +9,11 @@ import {
 
 function HomePage() {
   const [showModal, setShowModal] = useState(false);
+  const [typeSelected, setTypeSelected] = useState({});
 
   const handleSelectType = (type) => {
     setShowModal(true);
+    setTypeSelected(type);
   };
 
   return (
@@ -28,6 +30,7 @@ function HomePage() {
 
       {showModal && (
         <TypeModal
+          type={ typeSelected }
           disable={ () => setShowModal(false) }
         />
       )}

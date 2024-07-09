@@ -8,17 +8,17 @@ const CardContainer = styled.div`
   width: 30%;
   gap: 5px;
   padding: 7px;
-  border-radius: 15px;
-  background: #0005;
+  border-radius: 10px;
+  background: #000000bf;
 `;
 
 const Icon = styled.img`
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 `;
 
 const Title = styled.h2`
-  font-size: 18px;
+  font-size: 16px;
   color: ${(props) => props.$color};
 `;
 

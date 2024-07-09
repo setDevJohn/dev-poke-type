@@ -10,7 +10,7 @@ import ghost from '../assets/types/ghost.png';
 import grass from '../assets/types/grass.png';
 import ground from '../assets/types/ground.png';
 import ice from '../assets/types/ice.png';
-import metal from '../assets/types/metal.png';
+import steel from '../assets/types/steel.png';
 import normal from '../assets/types/normal.png';
 import poison from '../assets/types/poison.png';
 import psychic from '../assets/types/psychic.png';
@@ -30,7 +30,7 @@ const typesImages = {
   grass,
   ground,
   ice,
-  metal,
+  steel,
   normal,
   poison,
   psychic,
